@@ -84,27 +84,63 @@
 // let engobj =new engineer("chemical enginner");
 
 
+// question -1
+// class user{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewdata(){
+//         console.log("website data is loading.....");
+//     }
+// }
 
-class animals{
-    constructor(){
-        console.log("enter parents folder");
-        this.human ="homo sapiens";
-    }
-    speak(){
-        console.log("animal is barking");
-    }
-    eat(){
-        console.log("animal is eating");
-    }
+// let student1 =new user("ms","ms@gmail.com");
+// let student2 = new user("virat","virat@gmail.com");
+
+
+// Q-2)
+
+// let data="secret information";
+// class user{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewdata(){
+//         console.log("website data is =",data);
+//     }
+// }
+
+
+// class admin extends user{
+//     constructor(name,email){
+//         super(name,email);
+
+//     }
+//     editdata(){
+//         data ="some new value";
+//     }
+// }
+
+// let admin1 = new admin("ms","ms@gmail.com");
+
+
+// out of the class
+let a =5;
+let b=10;
+
+console.log("a =",a);
+console.log("b =",b);
+console.log("a + b =", a + b);
+console.log("a + b =", a + b);
+
+try{
+    console.log("a + b =", a + c);
+}catch(err){
+    console.log(err);
 }
-
-class dog extends animals{
-    constructor (name){
-        console.log("enter child folder");
-        super();
-        this.name=name
-        console.log("exit child folder");
-    }
-}
-
-let birds =new dog("bilati");
+console.log("a + b =", a + b);
+console.log("a + b =", a + b);
+console.log("a + b =", a + b);
+console.log("a + b =", a + b);
