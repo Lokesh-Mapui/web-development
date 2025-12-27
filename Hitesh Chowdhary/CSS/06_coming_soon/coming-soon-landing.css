@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body, html{
+    font-family: "Quicksand", sans-serif;
+    height: 100%;
+}
+.container{
+    background: linear-gradient(180deg, #8a2be2,#4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+.logo{
+    width: 150px;
+    /* height: 120px; */
+    object-fit: contain;
+}
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="email"]{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+button:hover{
+    background-color: #711dd1;
+}
