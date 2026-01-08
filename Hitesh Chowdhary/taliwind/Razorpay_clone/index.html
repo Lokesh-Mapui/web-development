@@ -129,8 +129,6 @@
   </div>
 </nav>
 
-
-
     <!-- Hero section -->
      <section class="relative bg-[#02042a] font-['Mulish']">
         <div class=" max-w-270 flex flex-col lg:flex-row justify-between items-center mx-auto w-10/12">
@@ -694,7 +692,7 @@
             <img src="./img/dotted.png" alt="" loading="lazy" class="absolute w-58.5 left-75 -top-24 z-10">
             <img src="./img/dotted.png" alt="" loading="lazy" class="absolute w-58.5 -right-14 -top-24 z-10">
 
-            <div class="grid grid-cols-3 w-full gap-y-10 gap-x-4 relative z-100">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-y-10 gap-x-4 relative z-100">
                 <!-- Item 1 -->
                  <div class="relative flex items-center z-0">
                     <h2 class="text-[#02042a] font-['Mulish'] font-black text-[40px] leading-13.5">
@@ -785,7 +783,7 @@
                 <p class="font-['Mulish'] text-center max-w-112.5 text-white text-lg mx-auto">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
 
                 <!-- Grid of feature cards -->
-                <div class="grid grid-cols-4 gap-8 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
                     <!-- card 1 -->
                      <div class="flex flex-col">
                         <img src="./img/instant-activation-icon.svg" alt="" class="w-10">
@@ -840,16 +838,16 @@
          
          <!-- join razorpay -->
          <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-50 -z-100">
-            <div class="w-11/12 max-w-270 relative mx-auto flex flex-row">
+            <div class="w-11/12 max-w-270 relative mx-auto flex flex-col md:flex-row">
                 <!-- Left part -->
-                 <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+                 <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] ">
                     <h2 class="font-['Mulish'] font-bold text-2xl text-[#02042a]">Join the 50,00,000+ business using Razorpay</h2>
                     <div class="w-6 h-1 bg-[#61cea6]  mb-10 my-4"></div>
                     <p class="font-['Mulish'] opacity-80">We make it easier for you focus on building great products while we work on simpling your payments. Become one of us by joining thousands of our happy users justify-around Simplify the online payments experience for your customers.</p>
                     <p class="font-['Mulish'] mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you</p>
                  </div>
                  <!-- Right part -->
-                  <div class="h-125 w-125 relative overflow-y-hidden">
+                  <div class="h-125 w-125 relative overflow-y-hidden mx-auto">
                     <div style="background: linear-gradient(180deg,#f4f8ff,#fff0)"
                     class="absolute w-full h-37.5 top-0 z-50">
                     </div>
@@ -885,18 +883,18 @@
                  </button>
 
                  <!-- Main content -->
-                  <div class="flex flex-row max-w-240 items-center space-x-40  mx-auto my-20">
+                  <div class="flex flex-col xl:flex-row  max-w-240 items-center space-x-40  mx-auto my-20">
                     <!-- left part -->
                     <img src=".//img/testimonial.jpg" alt="" loading="lazy" class="h-80 w-80 rounded-xl ">
 
                     <!-- Right part -->
-                     <div class="max-w-100 ">
-                        <img src="./img/quotes.svg" alt="" class="h-9 w-10 -mb-2">
-                        <p class="font-[Mulish] text-3xl font-extralight opacity-70">Readymade Closed Wallet Solution For Quick Refunds</p>
-                        <a href="#" class="text-[#818597] italic underline">Learn more</a>
-                        <h3 class="font-['Mulish'] font-extrabold text-2xl">Lorem Ipsem</h3>
-                        <p class="font-['Mulish'] font-medium">CEO, XYZ Engineering Company</p>
-                        <img src="./img/fake-company-logo.png" alt="" class="w-20 h-10">
+                     <div class="max-w-100 flex flex-col">
+                        <img src="./img/quotes.svg" alt="" class="h-9 w-10 -mb-2 xl:order-1">
+                        <p class="font-[Mulish] text-3xl font-extralight opacity-70 xl:order-1">Readymade Closed Wallet Solution For Quick Refunds</p>
+                        <a href="#" class="text-[#818597] italic underline xl:order-1">Learn more</a>
+                        <h3 class="font-['Mulish'] font-extrabold text-2xl -order-1 xl:order-1">Lorem Ipsem</h3>
+                        <p class="font-['Mulish'] font-medium xl:order-1">CEO, XYZ Engineering Company</p>
+                        <img src="./img/fake-company-logo.png" alt="" class="w-20 h-10 xl:order-1">
                      </div>
                   </div>
 
@@ -968,11 +966,12 @@
                     </button>
                  </div>
                  <!-- Right Part -->
-                 <img src="./img/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-1">
+                 <img src="./img/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-1 hidden lg:block">
 
             </div>
          </section>
 
+         <!-- Footer section -->
          <footer class="font-['Mulish'] bg-[#EEF9FE]relative bg-blue-50">
             <div class="w-10/12 max-w-270 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto pt-48 lg:pt-20 pb-14">
                 <!-- Footer part 1  -->
