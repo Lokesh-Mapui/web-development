@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link rel="icon" type="image/png" href="./img/logo.svg">
 
     <style>
       .corefeaturesection {
@@ -260,7 +261,7 @@
               </ul>
               <!-- for button and hyperlink -->
               <div
-                class="flex flex-col-reverse md:flex-row items-center space-x-4"
+                class="flex flex-col-reverse md:flex-row items-center md:space-x-4"
               >
                 <button
                   class="bg-[#2b84ea] text-white flex items-center w-full md:w-fit rounded-md font-bold font-['Mulish'] hover:bg-[#0b72e7] py-3.5 px-4.5 transition-all duration-200 cursor-pointer"
@@ -270,7 +271,7 @@
                 </button>
                 <!-- Hyperlink -->
                 <div
-                  class="flex self-start cursor-pointer group space-x-1 md:items-center"
+                  class="flex self-start md:self-center cursor-pointer group space-x-1"
                 >
                   <a
                     href="#"
@@ -763,10 +764,10 @@
                   </li>
                 </ul>
                 <div
-                  class="flex flex-col-reverse md:flex-row w-full items-center space-x-4"
+                  class="flex flex-col-reverse md:flex-row md:space-x-4 self-stretch"
                 >
                   <button
-                    class="relative bg-[#2b84ea] text-white flex items-center place-content-center md:justify-start rounded-md font-bold font-['Mulish'] hover:bg-[#0b72e7] py-3.5 px-4.5 md:pr-22.5 transition-all duration-200 cursor-pointer self-stretch md:w-fit"
+                    class="relative bg-[#2b84ea] text-white flex items-center place-content-center md:justify-start rounded-md font-bold font-['Mulish'] hover:bg-[#0b72e7] py-3.5 px-4.5 md:pr-22.5 transition-all duration-200 cursor-pointer sm:self-stretch md:w-fit "
                   >
                     Sign Up
                     <div
@@ -777,7 +778,7 @@
                   </button>
                   <!-- Hyperlink -->
                   <div
-                    class="flex flex-row self-start md:items-center cursor-pointer group"
+                    class="flex flex-row self-start md:self-center cursor-pointer group"
                   >
                     <a
                       href="#"
@@ -1390,7 +1391,7 @@
           <div class="h-1 w-6 my-4 mx-auto bg-[#61cea6]"></div>
           <!-- left button -->
           <button
-            class="absolute w-20 h-20 bg-[#f4f8ff] rounded-full left-0 top-1/2 flex items-center justify-center"
+            class="absolute w-20 h-20 bg-[#f4f8ff] rounded-full left-0 top-1/2 hidden items-center justify-center md:flex"
           >
             <div
               class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply"
@@ -1404,7 +1405,7 @@
 
           <!-- Right button -->
           <button
-            class="absolute w-20 h-20 bg-[#f4f8ff] rounded-full right-0 top-1/2 flex items-center justify-center"
+            class="absolute w-20 h-20 bg-[#f4f8ff] rounded-full right-0 top-1/2 items-center justify-center hidden md:flex"
           >
             <div
               class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply"
@@ -1418,7 +1419,7 @@
 
           <!-- Main content -->
           <div
-            class="flex flex-col xl:flex-row max-w-240 items-center space-x-40 mx-auto my-20"
+            class="flex flex-col xl:flex-row max-w-240 items-center justify-center space-x-40 mx-auto my-20"
           >
             <!-- left part -->
             <img
@@ -1479,11 +1480,11 @@
 
       <!-- CTA(Call To Action) -->
       <section
-        class="bg-[url(./img/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection z-0"
+        class="bg-[url(./img/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection z-0 "
       >
         <!-- Main content -->
         <div
-          class="w-11/12 max-w-270 relative flex flex-row items-center justify-between space-x-20 mx-auto pt-16"
+          class="w-11/12 max-w-[1200px] relative flex flex-row items-center justify-between space-x-20 mx-auto pt-18 pb-10"
         >
           <!-- Left part -->
           <div class="flex flex-col gap-5 mt-12 max-w-150">
@@ -1491,11 +1492,11 @@
               Supercharge your business with Razorpay
             </h2>
             <div class="h-1 w-6 my-4 bg-[#61cea6]"></div>
-            <p class="font-['Mulish'] text-white">
+            <p class="font-['Mulish'] text-white sm:leading-1.2 md:w-full">
               Sign up now to experience the future of payments and offer <br />
               your customers the best checkout experience.
             </p>
-            <ul class="flex flex-row flex-wrap space-y-3 gap-x-11 text-white">
+            <ul class="flex flex-col md:flex-row flex-wrap space-y-3 gap-x-11 text-white">
               <li class="font-['Mulish'] text-white flex flex-row">
                 <i data-feather="check" class="text-[#61cea6]"></i>
                 <span> Quick Onboarding </span>
@@ -1514,7 +1515,7 @@
               </li>
             </ul>
             <button
-              class="min-w-8 font-['Mulish'] text-sm font-bold bg-white text-[#4b94ed] border flex rounded-sm items-center hover:text-[#0b72e7] transition-all duration-200 py-3 px-4 place-self-start cursor-pointer"
+              class="min-w-[32px] font-['Mulish'] text-sm font-bold bg-white text-[#4b94ed] border flex rounded-sm items-center hover:text-[#0b72e7] transition-all duration-200 py-3 px-4 place-self-start cursor-pointer"
             >
               Sign Up
               <svg
