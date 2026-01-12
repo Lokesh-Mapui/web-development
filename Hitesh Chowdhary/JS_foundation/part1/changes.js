@@ -1,9 +1,9 @@
 let gamename = "spiderman"
 
-gamename="batman;"
+gamename="batman";
 console.log(gamename);
 
-const username ="lokesh07"
+ const username ="lokesh07"
 
-username= "lokesh24"
-console.log(username);
+ username= "lokesh24"
+ console.log(username);

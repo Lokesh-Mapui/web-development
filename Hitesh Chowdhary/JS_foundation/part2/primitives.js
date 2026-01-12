@@ -1,7 +1,7 @@
 // Number 
 
-// let balance = 120;
-// console.log(typeof(balance));
+//  let balance = 120;
+//  console.log(typeof(balance));
 
 // let anotherbalance = new Number(120)
 // console.log(typeof(anotherbalance));
@@ -11,6 +11,7 @@
 
 // let isactive = true;
 // let isReallyActive = new Boolean(true)
+// console.log(typeof isReallyActive);
 
 // console.log(isactive);
 
@@ -22,21 +23,21 @@
 
 // string
 
-let myString = "Hello";
-let myStringone = "Hola";
-let username = "Lokesh";
+// let myString = "Hello";
+// let myStringone = "Hola";
+// let username = "Lokesh";
 
-let oldGreet =myString + "Lokesh"
+// let oldGreet =myString + "Lokesh"
 // console.log(oldGreet);
 
-let greetMessage =`Hello ${username}!`; //string interpolation
-let demoone = `Value is ${2*2}`
+// let greetMessage =`Hello ${username}!`; //string interpolation
+// let demoone = `Value is ${2*2}`
 // console.log(demoone);
 
 
 //Symbol
 
-let sm1 =Symbol("hitesh")
-let sm2 =Symbol("hitesh")
+// let sm1 =Symbol("hitesh")
+// let sm2 =Symbol("hitesh")
 
-console.log(sm1 == sm2);
+// console.log(sm1 == sm2);

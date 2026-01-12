@@ -1,25 +1,25 @@
-const username = {
-    firstname : "Lokesh", isloggedin : true,
-};
+// const username = {
+//     firstname : "Lokesh", isloggedin : true,
+// };
 
-username.firstname = "Mr. L"
-username.lastname = "Mapui"
+//  username.firstname = "Mr. L"
+// username.lastname = "Mapui"
 
-// console.log(username.firstname)
-// console.log(username.lastname)
-// console.log(username)
-// console.log(typeof (username));
+//  console.log(username.firstname)
+//  console.log(username.lastname)
+//  console.log(username)
+//  console.log(typeof (username));
 
-let today = new Date()
-// console.log(today.getDate());
+//  let today = new Date()
+//  console.log(today.getDate());
 
-// Array
+//  Array
 
-// let heros =["a","b", "c", true ]
+ let heros =["a","b", "c", true ]
 
-let anotheruser =["Lokesh", true]
+ let anotheruser =["Lokesh", true]
 
-// console.log(anotheruser[0]);
+ console.log(anotheruser[0]);
 
-let isvalue = true;
-console.log(isvalue + 1);
+ let isvalue = true;
+ console.log(isvalue + 1);
