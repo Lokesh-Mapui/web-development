@@ -3,15 +3,16 @@
 store all teas before chai in a new array named `selectedTeas`.
 */
 
-// let teas = ["green tea", "black tea", "oolong tea", "chai"];
-// let selectedTeas = [];
-// for (let i = 0; i < teas.length; i++) {
-//     if (teas[i] === "chai") {
-//         break;
-//     }
-//     selectedTeas.push(teas[i])
-// }
-// console.log(selectedTeas);
+let teas = ["green tea", "black tea", "oolong tea", "chai"];
+let selectedTeas=[]
+
+for (let i = 0; i < teas.length; i++) {
+    if (teas[i]=== "chai") {
+        break;
+    }
+    selectedTeas.push(teas[i]);
+}
+console.log(selectedTeas);
 
 
 
@@ -146,7 +147,7 @@ let worldCities ={
 // let travelledcities = [];
 
 // cities.forEach(function(city) {
-//     if (city=== "Sydney") {
+//     if (city === "Sydney") {
 //         return;
 //     }
 //     travelledcities.push(city);
@@ -174,13 +175,13 @@ let worldCities ={
     store the teas iterated over in an array named shortteas
 */
 
-let myTeas = ["chai", "green tea", "black tea", "Jasmine Tea", "herbal tea"]
-let shortteas = []
+// let myTeas = ["chai", "green tea", "black tea", "Jasmine Tea", "herbal tea"]
+// let shortteas = []
 
-for (const tea of myTeas) {
-    if(tea.length > 10){
-        break;
-    }
-    shortteas.push(tea)
-}
-console.log(shortteas);
+// for (const tea of myTeas) {
+//     if(tea.length > 10){
+//         break;
+//     }
+//     shortteas.push(tea)
+// }
+// console.log(shortteas);
